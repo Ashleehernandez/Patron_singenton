@@ -13,7 +13,8 @@
         {
             if(intanciar == null)
             {
-                return new Singenton();
+                intanciar = new Singenton();
+                return intanciar;
             }
             else
             {
